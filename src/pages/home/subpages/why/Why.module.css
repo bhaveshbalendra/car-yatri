@@ -1,0 +1,19 @@
+.feature_content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border-radius: 50px;
+  color: green;
+  padding: 29px 10px;
+}
+
+.why_container {
+  display: flex;
+  flex: 1;
+}
+
+@media (max-width: 1200px) {
+  .why_container {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,66 @@
+.form_container {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.rideType,
+.tripType {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #e0e0e0;
+}
+
+.active {
+  background-color: #228b22;
+  color: white;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.inputGroup input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.exploreButton {
+  background-color: #228b22;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.exploreButton:hover {
+  background-color: #1a6e16;
+}

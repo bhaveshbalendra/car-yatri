@@ -1,0 +1,9 @@
+.feature_content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border-radius: 50px;
+  color: green;
+
+  padding: 29px 0.1vw;
+}

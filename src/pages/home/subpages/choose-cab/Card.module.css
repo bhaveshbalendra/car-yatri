@@ -1,0 +1,25 @@
+.card {
+  background-color: #f2efef;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 300px;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.point {
+  list-style-position: inside;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    font-size: 0.9rem;
+  }
+}
